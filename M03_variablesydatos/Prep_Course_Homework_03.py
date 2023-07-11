@@ -7,14 +7,15 @@
 
 # In[7]:
 
-
+a = 13
+print (a)
 
 
 # 2) Imprimir el tipo de dato de la constante 8.5
 
 # In[3]:
 
-
+type(8.5)
 
 
 
@@ -22,7 +23,7 @@
 
 # In[8]:
 
-
+type(a)
 
 
 
@@ -31,14 +32,14 @@
 # In[2]:
 
 
-
+c = 'Omar sneider'
 
 # 5) Crear una variable que contenga un número complejo
 
 # In[3]:
 
 
-
+c = 4 + 3j
 
 
 # 6) Mostrar el tipo de dato de la variable crada en el punto 5
@@ -46,7 +47,7 @@
 # In[4]:
 
 
-
+type(c)
 
 
 # 7) Crear una variable que contenga el valor del número Pi redondeado a 4 decimales
@@ -61,14 +62,15 @@ pi = 3.1416
 
 # In[3]:
 
+var1 = 'true'
+var2 = True
 
-
-
+#no es lo mismo pues uno se tata de un tipo string y el segundo es un boolean
 
 # 9) Imprimir el tipo de dato correspondientes a las variables creadas en el punto 8
 
 # In[5]:
-
+print('la variable 1 es de tipo', type(var1) , 'y la variable 2 es de tipo', type(var2) )
 
 
 
@@ -77,15 +79,16 @@ pi = 3.1416
 
 # In[1]:
 
-
+var1 = 1 + 3.2
 
 
 
 # 11) Realizar una operación de suma de números complejos
 
 # In[2]:
-
-
+x = 3 + 4j
+y = 4 + 2j
+print(x + y)
 
 
 
@@ -94,6 +97,8 @@ pi = 3.1416
 # In[4]:
 
 
+d = x + 3.23
+print(d)
 
 
 
@@ -101,7 +106,7 @@ pi = 3.1416
 
 # In[5]:
 
-
+print(2 + 3)
 
 
 
@@ -109,29 +114,31 @@ pi = 3.1416
 
 # In[6]:
 
-
+print (2 ** 8)
 
 
 # 15) Obtener el cociente de la división de 27 entre 4 en una variable y luego mostrarla
 
 # In[8]:
 
-
-
+a = 27 / 4
+print(a)
 
 
 # 16) De la división anterior solamente mostrar la parte entera
 
 # In[9]:
 
-
+a = 27 // 4
+print(a)
 
 
 
 # 17) De la división de 27 entre 4 mostrar solamente el resto
 
 # In[1]:
-
+a = 27 % 4
+print (a)
 
 
 
@@ -139,7 +146,8 @@ pi = 3.1416
 # 18) Utilizando como operandos el número 4 y los resultados obtenidos en los puntos 16 y 17. Obtener 27 como resultado
 
 # In[2]:
-
+a = 6 + 4 + 3
+print(a)
 
 
 
@@ -148,7 +156,9 @@ pi = 3.1416
 
 # In[3]:
 
-
+var1 = 'aprendo '
+var2 = 'python'
+print(var1 + var2)
 
 
 
@@ -156,15 +166,16 @@ pi = 3.1416
 
 # In[4]:
 
+'2' == 2
 
 
-
+#son diferentes por ser de diferentes tipos, el primero es str y el segundo int
 
 # 21) Utilizar las funciones de cambio de tipo de dato, para que la validación del punto 20 resulte verdadera
 
 # In[11]:
 
-
+int('2')== 2
 
 
 
@@ -173,14 +184,17 @@ pi = 3.1416
 # In[12]:
 
 
-
+a = float('3,8')
+#supongo que por dos razones, el uso de la coma para definir decimal, o que sea de tipo string
 
 
 # 23) Crear una variable con el valor 3, y utilizar el operador '-=' para modificar su contenido y que de como resultado 2.
 
 # In[15]:
 
-
+a = 3
+a -= 1
+print (a)
 
 
 
@@ -188,15 +202,16 @@ pi = 3.1416
 
 # In[29]:
 
-
-
+1 >> 2
+#no tengo muy en claro lo que sucede aqui¡¡
 
 
 # 25) Realizar la operación 2 + '2' ¿Por qué no está permitido? ¿Si los dos operandos serían del mismo tipo, siempre arrojaría el mismo resultado?
 
 # In[23]:
 
-
+2 + '2'
+# no se permite pues son de tipos diferentes, uno es de tipo int y el otro de tipo string
 
 
 
@@ -205,5 +220,7 @@ pi = 3.1416
 
 # In[30]:
 
+2 + int('2')
 
 
+# %%
