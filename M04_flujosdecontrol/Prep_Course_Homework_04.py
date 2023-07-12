@@ -287,7 +287,7 @@ while( a<300):
     if (a % 3==0): 
         print('el numero ',str(a),'es divisible por 3' )
         break
-    #estos ultimos los pude hacer sin mirar los otros ejercicios :)
+    #estos ultimos los pude hacer sin mirar los otros ejercicios :) 
 
 
 # %%
